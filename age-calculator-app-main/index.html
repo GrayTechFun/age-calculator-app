@@ -14,33 +14,42 @@
     <link rel="stylesheet" href="./css/main.css" />
 
     <title>Age calculator app</title>
+    <script defer src="./js/main.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="input">
-        <div class="day">
-          <h5>DAY</h5>
-          <input type="text" placeholder="DD" />
+        <div id="day">
+          <h5 class="h51">DAY</h5>
+          <input class="day" type="text" placeholder="DD" />
+          <div class="error1"></div>
         </div>
-        <div class="month">
-          <h5>MONTH</h5>
-          <input type="text" placeholder="MM" />
+        <div id="month">
+          <h5 class="h52">MONTH</h5>
+          <input class="month" type="text" placeholder="MM" />
+          <div class="error2"></div>
         </div>
-        <div class="year">
-          <h5>YEAR</h5>
-          <input type="text" placeholder="YYYY" />
+        <div id="year">
+          <h5 class="h53">YEAR</h5>
+          <input class="year" type="text" placeholder="YYYY" />
+          <div class="error3"></div>
         </div>
       </div>
       <div class="middle">
         <hr />
         <span>
-          <img src="./assets/images/icon-arrow.svg" alt="" />
+          <img
+            class="img"
+            type="submit"
+            src="./assets/images/icon-arrow.svg"
+            alt=""
+          />
         </span>
       </div>
       <div class="bottom">
-        <h1><span>38</span> years</h1>
-        <h1><span>3</span> months</h1>
-        <h1><span>26</span> days</h1>
+        <h1><span class="span1"></span> years</h1>
+        <h1><span class="span2"></span> months</h1>
+        <h1><span class="span3"></span> days</h1>
       </div>
     </div>
   </body>

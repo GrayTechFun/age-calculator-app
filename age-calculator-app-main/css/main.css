@@ -72,3 +72,59 @@ h1 {
 .bottom span {
   color: #722aff;
 }
+
+input:hover {
+  border-color: #7228ff;
+  cursor: pointer;
+}
+
+img:hover {
+  cursor: pointer;
+  background-color: black;
+  border-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 40em;
+    height: 50em;
+    border-radius: 2em 2em 10em 2em;
+  }
+
+  input {
+    width: 7em;
+    height: 4em;
+  }
+
+  hr {
+    width: 33em;
+    margin-top: 7em;
+  }
+  img {
+    margin-left: 14em;
+    background-color: #7228ff;
+  }
+
+  .bottom span {
+    color: #7228ff;
+  }
+
+  .bottom {
+    margin-top: 4em;
+    line-height: 7em;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+.error1 {
+  color: red;
+}
+.error2 {
+  color: red;
+}
+.error3 {
+  color: red;
+}
